@@ -1,0 +1,45 @@
+package JavaExamaples;
+
+public class Variables_datatypes {
+
+	public static void main(String[] args) {
+		System.out.println("hello world");
+		//variables and datatypes
+		//byte:which stores only numeric data
+		byte a1=127;//range of byte -127 to 128 (1byte)
+		System.out.println(a1);
+		//short 
+		short s1=198;//range of short -32768 to 32767 (2 byte)
+		System.out.println(s1);
+		//int:which stores only numbers
+		int a=10; //a is value & int is datatypes
+		int b=20;  //range of int -2,147,483,648 to 2,147,483,647  (4 byte)
+		System.out.println(a+b); //addition
+		System.out.println("a+b"+a+b); //concatination
+		System.out.println("a+b"+" "+(a+b));//values and sum 
+		//long:which stores only numbers but it stores long numbers and the number should end with (l/L)
+		long l=9885948493453l; //range of int -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807  (8 byte)
+		System.out.println(l);
+		//float:which stores the numbers with decimal points
+		float f =14.3f;  //(4 byte) it stores upto 7 decimal points only
+		float f1=159.68f;
+		System.out.println(f+f1);
+		//double :which stores the numbers with decimal points
+		//which stores upto 14 decimal points (8 bytes)
+		double d=45.8975528764464;
+		System.out.println(d);
+		//char:which stores the single characetrs
+		char ch='a';
+		System.out.println(ch);
+		//string:which stores the group of characters
+		String str="john";
+		System.out.println(str);
+		//boolean:which returns only true or false
+		boolean bl =true;
+		System.out.println(bl);
+		boolean b2 =false;
+		System.out.println(b2);
+		
+	}
+
+}

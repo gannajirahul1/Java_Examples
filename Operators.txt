@@ -1,0 +1,142 @@
+package JavaExamaples;
+
+import java.util.Scanner;
+
+public class Operators {
+
+	public static void main(String[] args) {
+		// operators:which is used to do the mathematical operations
+		//operands: the values like a,b
+		/*arithematic operators (+,-,*,/,%)
+		int a=30;
+		int b=20;
+		System.out.println("arithematic operators");
+		System.out.println("addition:"+(a+b));
+		System.out.println("subtraction:"+(a-b));
+		System.out.println("multiplication:"+(a*b));
+		System.out.println("divison:"+(a/b));
+		System.out.println("modulas:"+(a%b));
+		*/
+		
+		//relational operators:it returns only boolean values (>,<,>=,<=,==,!=)
+		/*
+		int a=10;
+		int b=20;
+		System.out.println(a>b);//false
+		System.out.println(a<b); //true
+		System.out.println(a>=b);//false
+		System.out.println(a<=b);//true
+		System.out.println(a==b);//false
+		System.out.println(a!=b);//true
+		*/
+		
+		//logical operators:which check the logic between the operands,it also returns booleans vlaues
+		/*
+		int a=50;
+		int b=10;
+		System.out.println((a<b)&&(b<a));//false :because in this two conditions will match other wise it returns false 
+		System.out.println((a>b)&&(b<a));//true
+		System.out.println((a>b)||(b<a));//true: because if any of the condition is true the result will be true
+		System.out.println((a<b)||(b>a));//false
+		*/
+		
+		//increment And decrement operators
+		//post increment 
+		/*
+		int a=15;
+		a++;			// or a=a+1; increment :which increases by 1
+		System.out.println(a);
+		
+		//when you store in variable
+		int a=5;
+		int res=a++;
+		System.out.println(res);
+		System.out.println(a);
+		//in this by storing in a variable it first "a" value will be assigned to "res" variable the it incremented
+		
+		//pre increment
+		/*int b=10;
+		++b;
+		System.out.println(b);
+		
+		//when you store in variable
+		//in this by storing in a variable it first increment ans assigned 
+		int a=5;
+		int res=++a;
+		System.out.println(res);
+		System.out.println(a);
+		*/
+		//post decrement
+		/*
+		int a=10;
+		a--; // or a=a-1; which decreases by 1
+		System.out.println(a);
+		
+		//when you store in variable
+		//in this by storing in a variable it first increment ans assigned 
+		int a=5;
+		int res=--a;
+		System.out.println(res);
+		System.out.println(a);
+	
+		//pre drecremnet
+		int b=10;
+		--b;
+		System.out.println(b);
+		
+		//when you store in variable
+		int a=5;
+		int res=a--;
+		System.out.println(res);
+		System.out.println(a);
+			*/
+		//Assignments operators:which is used to increment more than 1 value
+		/*
+		int a=10;
+		a+=5;					//a=a+5;
+		System.out.println("a value is :"+a);
+		int b=10;
+		b-=5;					//b=b-5;
+		System.out.println("b value is :"+b);
+		int c=10;
+		c*=5;					//c=c*5;
+		System.out.println("c value is :"+c);
+		int d=10;
+		d/=5;					//d=d/5;
+		System.out.println("d value is :"+d);
+		int e=10;
+		e%=5;					//e=e&5;
+		System.out.println("e value is :"+e);
+		*/
+		
+		//ternary /conditional operator
+		/*
+		int a=5,b=10;
+		int ter=(a<b)?a:b;
+		System.out.println(ter);
+		
+		
+		int a=5,b=10;
+		int ter=(a>b)?a:b;
+		System.out.println(ter);
+		*/
+		//eligible to vote example 1
+		/*
+		int per_age=12;
+		String res=(per_age>=18)?"eligible":"not eligible";
+		System.out.println(res);
+		//example 2
+		 */
+		//accepting from user by manually and checking the eligibility
+		/*
+		Scanner sc= new Scanner(System.in);
+		System.out.println("enter the age ");
+		int per_age=sc.nextInt();
+		String res=(per_age>=18)?"eligible":"not eligible";
+		System.out.println(res);
+		*/
+		
+	}
+	
+
+}
