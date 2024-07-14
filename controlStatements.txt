@@ -1,0 +1,130 @@
+package JavaExamaples;
+
+import java.util.Scanner;
+
+public class Control_Statements {
+
+	public static void main(String[] args) {
+		// conditional statements
+		//there are 6 types of conditional statements available
+		//if
+		/*
+		Scanner sc= new Scanner(System.in);//it accepting the values after completion programme
+		System.out.println("enter your age");
+		int num=sc.nextInt();//nextInt -->it converts the string into integer
+		if(num>=18)
+		{
+			System.out.println("eligible to vote");
+		}
+		*/
+		//if else:if the condition is true it returns the if block otherwise it goes to else block and execute
+		//eligible to vote example
+		/*
+		Scanner sc= new Scanner(System.in);//it accepting the values after completion programme
+		System.out.println("enter your age");
+		int num=sc.nextInt();//nextInt -->it converts the string into integer
+		if(num>=18 && num<=60)//in this the age criteria is 18-60 below candiates will able to vote
+		{
+			System.out.println("eligible to vote");
+		}
+		else 
+		{
+			System.out.println("not eligible to vote");
+		}
+		*/
+		
+		//if else if
+		/*
+		//students with their marks pasees or failed
+		Scanner sc= new Scanner(System.in);//it accepting the values after completion programme
+		System.out.println("enter the marks of the student");
+		int marks=sc.nextInt();//nextInt -->it converts the string into integer
+		if(marks<=100||marks>=91)//in this the age criteria is 18-60 below candiates will able to vote
+		{
+			System.out.println("The student Aggregated with A+ grade");
+		}
+		else if(marks>=85) 
+		{
+			System.out.println("The student Aggregated with A grade");
+		}
+		else if(marks>=75) 
+		{
+			System.out.println("The student Aggregated with B+ grade");
+		}
+		else if(marks>=65) 
+		{
+			System.out.println("The student Aggregated with B grade");
+		}
+		else if(marks>=55) 
+		{
+			System.out.println("The student Aggregated with C+ grade");
+		}
+		else if(marks>=45) 
+		{
+			System.out.println("The student Aggregated with C grade");
+		}
+		else if(marks>=35)
+		{
+			System.out.println("The student Aggregated with D grade");
+		}
+		else if(marks<=30) 
+		{
+			System.out.println("The student failed");
+		}
+		else  
+		{
+			System.out.println("wrong data");
+		}
+		*/
+		//nested if :if in a another if
+		/*
+		int a=10,b=20;
+		if(a<b)
+		{
+			if(b<a) 
+			{
+				b++;
+				System.out.println(b);
+		    }
+			System.out.println(b);
+		}
+		*/
+		//switch case:it is a decision making statement
+		/*syntax:  switch(variable)
+		{
+			case 1:statement;
+			case 2:statement;
+			case 3:statement;
+			default:statement;
+		}
+		*/
+		/*
+		//int weekno=9;//you can mention number at initalization stage only
+		Scanner sc= new Scanner(System.in);//this is way to getting the response from the users
+		System.out.println("enter the number");
+		int weekno=sc.nextInt();
+		switch(weekno)
+		{
+		case 1:System.out.println("The day is Sunday");
+		break;
+		case 2:System.out.println("The dday is Monday");
+		break;
+		case 3:System.out.println("The day is Tuesday");
+		break;
+		case 4:System.out.println("The day is Wednesday");
+		break;
+		case 5:System.out.println("The day is Thrusday");
+		break;
+		case 6:System.out.println("The day is Friday");
+		break;
+		case 7:System.out.println("The day is Saturday");
+		break;
+		default:System.out.println("you entered invalid number");
+		break;
+		}
+		*/
+		
+		
+	}
+
+}

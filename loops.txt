@@ -1,0 +1,220 @@
+package JavaExamaples;
+
+public class Loops_Jump_Statements {
+
+	public static void main(String[] args) {
+		// While:first it will check the condition then it will executes
+		/*
+		 syntax:While(condition){
+		 		statements;
+		 		incre/decre;
+		 }
+		*/
+		//print 1 to 10 numbers
+		/*
+		int i=1;
+		while(i<=10) {
+			System.out.println("The number is "+ i);
+			i++;
+		}
+		*/
+		//print even numbers 1 to 10:in this you need to write from 0
+		/*
+		int i=0;
+		while(i<=10) {
+			System.out.println("The even number is "+ i);
+			i+=2;
+		}
+		//print odd numbers 1 to 10 :in this you need to write from 1
+		int j=1;
+		while(j<=10) {
+			System.out.println("The odd number is "+ j);
+			j+=2;
+		}
+		*/
+		//approach 2
+		/*
+		int i=0;
+		while(i<=10) 
+		{
+			if(i%2==0) 
+			{
+				System.out.println("The even number is "+i);
+			}
+			i++;
+			}
+		*/
+		//finding even and with the help of while loop and if else
+		/*
+		int i=0;
+		while(i<=10)
+		{
+			if(i%2==0)
+			{
+				System.out.println("The even number is " +i );
+			}
+			else
+			{
+				System.out.println("The odd number is " +i);
+			}
+			i++;
+		}
+		*/
+		//printing 1-10 numbers in reverse order
+		/*
+		int i=10;
+		while(i>=0) 
+		{
+			System.out.println("the numbers are:" +i);
+			i--;
+		}
+		*/
+		//Do while loop:first it will do the task and check the condition
+		/*syntax
+			do
+			{
+			//statements;
+			 //incre/decre;
+			}
+			while(condition)
+			*/
+		//printing 1-10 numbers
+		/*
+		int i=1;
+		do
+		{
+			System.out.println(i);
+			i++;
+		}
+		while(i<=10);
+		}
+	*/
+//printing 1-10 numbers in reverse order
+		/*
+		int i=15;
+		do
+		{
+			System.out.println(i);
+			i--;
+		}
+		while(i>=1);
+		*/
+		/*The diffrence between while loops and do while loop is while loop is check the condition and perfrom the task
+		 where as do while loop first print the statement and checks the condition
+		 here one example
+		 int i=15;
+		do
+		{
+			System.out.println(i);
+			i--;
+		}
+		while(i<=1);
+		in this it will print the result as 15 then it checks the conditon ,the condition is false so it exit
+		 * */
+		/*for loop:it is mainly used for iitration
+		 syntax:
+		 for(initialization;condition;incre/decre)
+		 {
+		 //statements;
+		 }
+		 
+		 * */
+		//example
+		/*
+		System.out.println("printing 1-10 numbers");
+		for(int i=1;i<=10;i++)
+		{
+			System.out.println(i);
+		}
+		System.out.println("printing 1-10 numbers in reverse order");
+		for(int j=10;j>=1;j--)
+		{
+			System.out.println(j);
+		}
+		*/
+		/*
+		System.out.println("printing even numbers");
+		for(int i=0;i<=10;i++)
+		{
+			if(i%2==0) 
+			{
+			System.out.println("even numbers are "+ i);
+			} 
+		 }
+		System.out.println("printing odd numbers");
+		for(int i=1;i<=10;i++)
+		{
+			if(i%2!=0) 
+			{
+			System.out.println("odd numbers are "+ i);
+			}  
+		 }
+		*/
+		/*
+		System.out.println("printing even & odd numbers");
+		for(int i=0;i<=10;i++)
+		{
+			if(i%2==0) 
+			{
+			System.out.println("even numbers are "+ i);
+			} 
+			else
+			{
+				System.out.println("odd numbers are " +i);
+			}
+		 }
+		*/
+		//enhanced for loop:this loop is useful in array concept
+		
+		/*jumping statements:
+		 break and continue 
+		  break:it will break your loop and jumps out from loop
+		  continue:it will continue from where the loop is breaked 
+		  */
+		//printing 1-10 at 5 break will be applied
+		/*
+		for(int i=1;i<=10;i++)
+		{
+			while(i<=5)
+			{
+				System.out.println(i);
+				break;
+			}
+		}
+		*/
+		//approach 2
+		/*
+		for(int i=1;i<=10;i++)
+		{
+			if(i==5)
+			{
+				break;
+			}
+			System.out.println(i);
+		}
+		*/
+		/* in this where ever it stopped from there it will conitnued and exit from the loop
+		for(int i=1;i<=10;i++)
+		{
+			if(i==5)
+			{
+				continue;
+			}
+			System.out.println(i);
+		}
+		*/
+		//if we dont wan't particular numbes we can also try it
+		/*
+		for(int i=0;i<=10;i++)
+		{
+			if(i==2||i==5||i==7||i==9)
+			{
+				continue;
+			}
+			System.out.println(i);
+		}
+		*/
+	}}
+	
+	
+
